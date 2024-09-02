@@ -1,8 +1,21 @@
-# Dispositivos-Moviles-VI
-Repositorio donde se subirán todos los trabajos dejados en el curso de Programación para Dispositivos Móviles de 6to semestre de la Universidad La Salle
+# Dispositivos Móviles VI
 
-Primera Práctica 4 Problemas:
-  1.- Evaluación Empleados.
-  2.- Piedra, Papel, Tijera.
-  3.- Calculadora Elemental. 
-  4.- Adivina Número.
+Repositorio para los trabajos realizados en el curso de **Programación para Dispositivos Móviles** del **6to semestre** en la **Universidad La Salle**.
+
+## Primera Práctica: 4 Problemas
+
+1. **Evaluación de Empleados**
+2. **Piedra, Papel, Tijera**
+3. **Calculadora Elemental**
+4. **Adivina el Número**
+
+## Segunda Práctica: 4 Problemas
+
+1. **Clase para Cuenta Bancaria**
+2. **Clase para Producto**
+3. **Figuras**
+4. **Sistema de Gestión de Biblioteca**
+
+---
+
+Este repositorio será actualizado con más Proyectos y Prácticas a lo largo del semestre.

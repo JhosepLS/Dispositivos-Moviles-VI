@@ -743,6 +743,7 @@ id end
 id expand_activities_button
 id expanded_menu
 id forever
+id fragment_container
 id fragment_container_view_tag
 id group_divider
 id hide_ime_id
@@ -885,9 +886,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_interaccion_imagenes
-layout activity_mostrar_imagen
+layout activity_main
 layout custom_dialog
+layout fragment_image_display
+layout fragment_image_selection
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout notification_action

@@ -742,6 +742,7 @@ int id end 0x7f080056
 int id expand_activities_button 0x7f080057
 int id expanded_menu 0x7f080058
 int id forever 0x7f080059
+int id fragment_container 0x7f0800c0
 int id fragment_container_view_tag 0x7f08005a
 int id group_divider 0x7f08005b
 int id hide_ime_id 0x7f08005c
@@ -884,9 +885,10 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_interaccion_imagenes 0x7f0b001c
-int layout activity_mostrar_imagen 0x7f0b001d
+int layout activity_main 0x7f0b002b
 int layout custom_dialog 0x7f0b001e
+int layout fragment_image_display 0x7f0b002c
+int layout fragment_image_selection 0x7f0b002d
 int layout ime_base_split_test_activity 0x7f0b001f
 int layout ime_secondary_split_test_activity 0x7f0b0020
 int layout notification_action 0x7f0b0021

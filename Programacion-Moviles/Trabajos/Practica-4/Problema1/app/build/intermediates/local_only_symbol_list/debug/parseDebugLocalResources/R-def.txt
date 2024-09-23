@@ -14,10 +14,12 @@ drawable image2
 drawable image3
 id btnSiguiente
 id btnVolver
+id fragment_container
 id imageView
 id spinnerImagenes
-layout activity_interaccion_imagenes
-layout activity_mostrar_imagen
+layout activity_main
+layout fragment_image_display
+layout fragment_image_selection
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

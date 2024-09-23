@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\jhose\.gradle\caches\transforms-4\64bb4f13680d9bbf98990a0c94ea154f\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\jhose\.gradle\caches\transforms-4\13d96404e924ce015bbc5581ab3c572e\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\jhose\.gradle\caches\transforms-4\74fbadab6cc188a17562976dc8646f2b\transformed\material3-release\AndroidManifest.xml:17:1-22:12
@@ -73,8 +73,8 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\jhose\.gradle\cache
 	xmlns:android
 		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:5:5-28:19
-INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:5:5-24:19
+INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\jhose\.gradle\caches\transforms-4\bc02322433390b02e0ac58b68f2fa9ae\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\jhose\.gradle\caches\transforms-4\bc02322433390b02e0ac58b68f2fa9ae\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\jhose\.gradle\caches\transforms-4\e860b32b4960f3958693a62d716bd9bd\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
@@ -113,12 +113,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jhose\.gradle\cach
 		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:13:9-67
 	android:dataExtractionRules
 		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.myapplication.InteraccionImagenes
+activity#com.example.myapplication.MainActivity
 ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:exported
 		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:17:13-48
+		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
@@ -129,12 +129,6 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.example.myapplication.MostrarImagenActivity
-ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml:26:13-50
 uses-sdk
 INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Eclipse chambas\Github\Dispositivos-Moviles-VI\Programacion-Moviles\Trabajos\Practica-4\Problema1\app\src\main\AndroidManifest.xml

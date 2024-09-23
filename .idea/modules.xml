@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Dispositivos-Moviles-VI.iml" filepath="$PROJECT_DIR$/.idea/Dispositivos-Moviles-VI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion-Moviles/Trabajos/Practica-3/Problema 1/Problema 1.iml" filepath="$PROJECT_DIR$/Programacion-Moviles/Trabajos/Practica-3/Problema 1/Problema 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion-Moviles/Trabajos/Practica-3/Problema 2/Problema 2.iml" filepath="$PROJECT_DIR$/Programacion-Moviles/Trabajos/Practica-3/Problema 2/Problema 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion-Moviles/Trabajos/Trabajos.iml" filepath="$PROJECT_DIR$/Programacion-Moviles/Trabajos/Trabajos.iml" />
+    </modules>
+  </component>
+</project>

@@ -5,7 +5,7 @@
  * Fecha última modificación: 23 de septiembre del 2024
  */
 
-package com.example.practica3
+package com.example.problema2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

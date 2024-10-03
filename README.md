@@ -16,6 +16,20 @@ Repositorio para los trabajos realizados en el curso de **Programación para Dis
 3. **Figuras**
 4. **Sistema de Gestión de Biblioteca**
 
+## Tercera Práctica: 2 Problemas
+
+1. **Interacción con Imágenes**
+2. **Reproductor de Música**
+
+## Cuarta Práctica (Uso de Fragments): 2 Problemas
+
+1. **Interacción con Imágenes versión Fragments**
+2. **Reproductor de Música versión Fragments**
+
+## Quinta Práctica (Uso de RecyclerView): 1 Problema
+
+1. **Reproductor de Música versión RecyclerView.**
+
 ---
 
 Este repositorio será actualizado con más Proyectos y Prácticas a lo largo del semestre.

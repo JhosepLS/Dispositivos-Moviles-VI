@@ -1,45 +1,51 @@
 /*
- * Descripción: Fragmento para la selección de canciones mediante un spinner
- * Autor: Jhosep
- * Fecha creación: 23 de septiembre del 2024
- * Fecha última modificación: 23 de septiembre del 2024
+ * Descripción: Fragmento para la selección de canciones mediante un RecyclerView
+ * Autor: Assistant
+ * Fecha creación: 3 de octubre del 2024
+ * Fecha última modificación: 3 de octubre del 2024
  */
 
-package com.example.problema2
+package com.example.practica5
 
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.Spinner
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class SeleccionAudioFragment : Fragment() {
 
-    private lateinit var spinnerAudios: Spinner
-    private lateinit var btnSeleccionar: Button
+    private lateinit var recyclerView: RecyclerView
     private var listener: AudioSelectionListener? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_seleccion_audio, container, false)
 
-        spinnerAudios = view.findViewById(R.id.spinnerAudios)
-        btnSeleccionar = view.findViewById(R.id.btnSeleccionar)
+        recyclerView = view.findViewById(R.id.recyclerViewAudios)
+        recyclerView.layoutManager = LinearLayoutManager(context)
 
-        val audios = arrayOf("Miedo y Fe", "Me tengo que ir", "Treasure", "Rain")
-        val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, audios)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinnerAudios.adapter = adapter
+        val audios = listOf(
+            Audio("Miedo y Fe", R.drawable.song1, R.raw.song1, "3:45"),
+            Audio("Me tengo que ir", R.drawable.song2, R.raw.song2, "4:12"),
+            Audio("Treasure", R.drawable.song3, R.raw.song3, "3:10"),
+            Audio("Rain", R.drawable.song4, R.raw.song4, "3:55"),
+            Audio("Sunflower", R.drawable.song5, R.raw.song5, "2:38"),
+            Audio("Blinding Lights", R.drawable.song6, R.raw.song6, "3:20"),
+            Audio("Shape of You", R.drawable.song7, R.raw.song7, "3:53"),
+            Audio("Dance Monkey", R.drawable.song8, R.raw.song8, "3:29"),
+            Audio("Havana", R.drawable.song9, R.raw.song9, "3:37"),
+            Audio("Despacito", R.drawable.song10, R.raw.song10, "3:47"),
+            Audio("Old Town Road", R.drawable.song11, R.raw.song11, "2:37"),
+            Audio("Senorita", R.drawable.song12, R.raw.song12, "3:10")
+        )
 
-        btnSeleccionar.setOnClickListener {
-            listener?.onAudioSelected(
-                spinnerAudios.selectedItemPosition,
-                spinnerAudios.selectedItem.toString()
-            )
+        val adapter = AudioAdapter(audios) { audio ->
+            listener?.onAudioSelected(audio)
         }
+        recyclerView.adapter = adapter
 
         return view
     }
@@ -60,5 +66,5 @@ class SeleccionAudioFragment : Fragment() {
 }
 
 interface AudioSelectionListener {
-    fun onAudioSelected(position: Int, nombre: String)
+    fun onAudioSelected(audio: Audio)
 }

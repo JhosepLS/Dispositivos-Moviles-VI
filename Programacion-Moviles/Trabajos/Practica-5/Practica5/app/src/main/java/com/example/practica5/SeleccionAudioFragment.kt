@@ -28,18 +28,18 @@ class SeleccionAudioFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(context)
 
         val audios = listOf(
-            Audio("Miedo y Fe - Diazepunk", R.drawable.song1, R.raw.song1, "3:45"),
-            Audio("Me tengo que ir - Adolescent's Orquesta", R.drawable.song2, R.raw.song2, "4:12"),
-            Audio("Treasure - Bruno Mars", R.drawable.song3, R.raw.song3, "3:10"),
-            Audio("Rain - Pay money to my pain", R.drawable.song4, R.raw.song4, "3:55"),
-            Audio("Deprogrammer - Pay money to my pain", R.drawable.song5, R.raw.song5, "2:38"),
-            Audio("13 Monsters - Pay money to my pain", R.drawable.song5, R.raw.song6, "3:20"),
-            Audio("Final Destination - Coldrain", R.drawable.song7, R.raw.song7, "3:53"),
-            Audio("Click Click Boom - Saliva", R.drawable.song8, R.raw.song8, "3:29"),
-            Audio("Forget About Me - Escape the Fate", R.drawable.song9, R.raw.song9, "3:37"),
-            Audio("Can't Stop - Red Hot Chilli Peppers", R.drawable.song10, R.raw.song10, "3:47"),
-            Audio("Still Waiting - Sum 41", R.drawable.song11, R.raw.song11, "2:37"),
-            Audio("Fullmoon - Sonata Arctica", R.drawable.song12, R.raw.song12, "3:10")
+            Audio("Miedo y Fe - Diazepunk", R.drawable.song1, R.raw.song1, "4:16"),
+            Audio("Me tengo que ir - Adolescent's Orquesta", R.drawable.song2, R.raw.song2, "4:43"),
+            Audio("Treasure - Bruno Mars", R.drawable.song3, R.raw.song3, "2:59"),
+            Audio("Rain - Pay money to my pain", R.drawable.song4, R.raw.song4, "5:13"),
+            Audio("Deprogrammer - Pay money to my pain", R.drawable.song5, R.raw.song5, "6:29"),
+            Audio("13 Monsters - Pay money to my pain", R.drawable.song5, R.raw.song6, "4:33"),
+            Audio("Final Destination - Coldrain", R.drawable.song7, R.raw.song7, "3:42"),
+            Audio("Click Click Boom - Saliva", R.drawable.song8, R.raw.song8, "4:14"),
+            Audio("Forget About Me - Escape the Fate", R.drawable.song9, R.raw.song9, "3:05"),
+            Audio("Can't Stop - Red Hot Chilli Peppers", R.drawable.song10, R.raw.song10, "4:28"),
+            Audio("Still Waiting - Sum 41", R.drawable.song11, R.raw.song11, "2:39"),
+            Audio("Fullmoon - Sonata Arctica", R.drawable.song12, R.raw.song12, "5:08")
         )
 
         val adapter = AudioAdapter(audios) { audio ->

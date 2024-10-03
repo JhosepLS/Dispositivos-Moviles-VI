@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id 'kotlin-parcelize'
+    id("kotlin-parcelize")
 }
 
 android {
@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.practica5"
-        minSdk = 33
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -51,7 +51,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

@@ -12,16 +12,9 @@
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
-    <Spinner
-        android:id="@+id/spinnerAudios"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAudios"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
-
-    <Button
-        android:id="@+id/btnSeleccionar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Seleccionar" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

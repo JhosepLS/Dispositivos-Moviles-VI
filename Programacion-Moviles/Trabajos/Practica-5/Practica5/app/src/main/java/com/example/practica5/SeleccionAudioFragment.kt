@@ -29,7 +29,7 @@ class SeleccionAudioFragment : Fragment() {
 
         val audios = listOf(
             Audio("Miedo y Fe - Diazepunk", R.drawable.song1, R.raw.song1, "3:45"),
-            Audio("Me tengo que ir - Adolescent Orquesta", R.drawable.song2, R.raw.song2, "4:12"),
+            Audio("Me tengo que ir - Adolescent's Orquesta", R.drawable.song2, R.raw.song2, "4:12"),
             Audio("Treasure - Bruno Mars", R.drawable.song3, R.raw.song3, "3:10"),
             Audio("Rain - Pay money to my pain", R.drawable.song4, R.raw.song4, "3:55"),
             Audio("Deprogrammer - Pay money to my pain", R.drawable.song5, R.raw.song5, "2:38"),

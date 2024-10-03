@@ -7,12 +7,14 @@
 
 package com.example.practica5
 
+import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.parcelize.Parcelize
 
 class AudioAdapter(
     private val audios: List<Audio>,
@@ -42,9 +44,10 @@ class AudioAdapter(
     override fun getItemCount() = audios.size
 }
 
+@Parcelize
 data class Audio(
     val nombre: String,
     val imagenResId: Int,
     val audioResId: Int,
     val duracion: String
-)
+) : Parcelable

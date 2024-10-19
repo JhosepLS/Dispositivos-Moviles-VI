@@ -19,6 +19,8 @@ import androidx.navigation.fragment.findNavController
 import com.example.parcial.databinding.FragmentQuestionBinding
 import android.os.CountDownTimer
 import androidx.lifecycle.ViewModelProvider
+import androidx.core.content.ContextCompat
+import android.graphics.drawable.GradientDrawable
 
 class QuestionFragment : Fragment() {
 
@@ -42,6 +44,8 @@ class QuestionFragment : Fragment() {
             checkAnswer()
         }
 
+        styleOptions()
+        styleSubmitButton()
         // Inicia el temporizador
         startTimer()
     }
@@ -85,6 +89,20 @@ class QuestionFragment : Fragment() {
             }
         }.start()
     }
+
+    private fun styleOptions() {
+        val options = listOf(binding.option1, binding.option2, binding.option3, binding.option4)
+        options.forEach { option ->
+            option.background = ContextCompat.getDrawable(requireContext(), R.drawable.option_background)
+            (option.background as GradientDrawable).setColor(ContextCompat.getColor(requireContext(), R.color.colorAccent))
+        }
+    }
+
+    private fun styleSubmitButton() {
+        binding.submitButton.background = ContextCompat.getDrawable(requireContext(), R.drawable.rounded_button)
+        (binding.submitButton.background as GradientDrawable).setColor(ContextCompat.getColor(requireContext(), R.color.white))
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

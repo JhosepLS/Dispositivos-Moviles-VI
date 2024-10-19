@@ -8,7 +8,7 @@
  * Se asegura de que el estado del juego se mantenga al girar el dispositivo.
  */
 
-package com.example.videogamequiz
+package com.example.parcial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

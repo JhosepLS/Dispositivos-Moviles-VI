@@ -84,6 +84,12 @@ class QuizViewModel : ViewModel() {
         score = 0
         lastAnswerIndex = -1
     }
+
+    fun timeUp() {
+        // No incrementamos el score, simplemente se pasa a la siguiente pregunta
+        moveToNextQuestion()
+    }
+
 }
 
 data class Question(

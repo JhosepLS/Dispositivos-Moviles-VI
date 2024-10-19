@@ -85,7 +85,7 @@ class QuestionFragment : Fragment() {
             }
 
             override fun onFinish() {
-                checkAnswer()
+                timeUp()
             }
         }.start()
     }
@@ -93,8 +93,7 @@ class QuestionFragment : Fragment() {
     private fun styleOptions() {
         val options = listOf(binding.option1, binding.option2, binding.option3, binding.option4)
         options.forEach { option ->
-            option.background = ContextCompat.getDrawable(requireContext(), R.drawable.option_background)
-            (option.background as GradientDrawable).setColor(ContextCompat.getColor(requireContext(), R.color.colorAccent))
+            option.setBackgroundResource(R.drawable.option_background)
         }
     }
 
@@ -103,6 +102,10 @@ class QuestionFragment : Fragment() {
         (binding.submitButton.background as GradientDrawable).setColor(ContextCompat.getColor(requireContext(), R.color.white))
     }
 
+    private fun timeUp() {
+        viewModel.timeUp()
+        findNavController().navigate(R.id.action_questionFragment_to_timeUpFragment)
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()

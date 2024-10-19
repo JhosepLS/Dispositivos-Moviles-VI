@@ -36,10 +36,14 @@ class AnswerFragment : Fragment() {
 
         val currentQuestion = viewModel.getCurrentQuestion()
         val userAnswer = viewModel.getLastAnswerIndex()
+        val isCorrect = userAnswer == currentQuestion.correctAnswer
 
         // Mostrar si la respuesta es correcta o incorrecta
         binding.resultText.text = if (userAnswer == currentQuestion.correctAnswer) "¡Correcto!" else "Incorrecto"
-        // Mostrar la explicación de la respuesta correcta
+        binding.resultImageView.setImageResource(
+            if (isCorrect) R.drawable.ic_correct
+            else R.drawable.ic_incorrect
+        )
         binding.explanationText.text = currentQuestion.explanation
 
         binding.nextButton.setOnClickListener {

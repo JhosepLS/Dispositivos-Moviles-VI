@@ -23,6 +23,19 @@
         <action
             android:id="@+id/action_questionFragment_to_answerFragment"
             app:destination="@id/answerFragment" />
+        <action
+            android:id="@+id/action_questionFragment_to_timeUpFragment"
+            app:destination="@id/timeUpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timeUpFragment"
+        android:name="com.example.parcial.TimeUpFragment"
+        android:label="Tiempo Agotado"
+        tools:layout="@layout/fragment_time_up">
+        <action
+            android:id="@+id/action_timeUpFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
     </fragment>
 
     <fragment

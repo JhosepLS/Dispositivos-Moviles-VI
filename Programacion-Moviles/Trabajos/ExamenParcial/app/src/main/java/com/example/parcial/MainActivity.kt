@@ -1,32 +1,26 @@
-/**
- * Juego de preguntas y respuestas sobre consolas de videojuegos
- * Autor: Jhosep
- * Fecha Creación: 18/10/2024
- * Fecha última modificación: 19/10/2024
- *
- * Esta actividad principal maneja la navegación entre fragmentos y el estado del juego.
- * Se asegura de que el estado del juego se mantenga al girar el dispositivo.
- */
-
 package com.example.parcial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.findNavController
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var navController: NavController
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val navController = this.findNavController(R.id.nav_host_fragment)
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        navController = navHostFragment.navController
+
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
 
-    // Maneja la navegación hacia atras
     override fun onSupportNavigateUp(): Boolean {
-        val navController = this.findNavController(R.id.nav_host_fragment)
-        return navController.navigateUp()
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }
